@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://btvtebx2a6emi"]
+
+[ext_resource type="PackedScene" uid="uid://c4nba0qpi0uls" path="res://addons/godot-xr-tools/hands/model/Hand_Nails_low_L.gltf" id="1"]
+
+[node name="HandLeft" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03, 0.0, 0.15)
